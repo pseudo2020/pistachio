@@ -1,8 +1,0 @@
-OBJS = 01_hello_SDL.cpp
-OBJ_NAME = 01_hello_SDL
-
-all : $(OBJS)
-	g++ $(OBJS) -w -lSDL2 -o $(OBJ_NAME)
-
-clean : $(OBJ_NAME)
-	rm $(OBJ_NAME)
